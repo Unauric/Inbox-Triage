@@ -1,0 +1,3 @@
+py train.py data\\train.tsv Models\\model.json
+py evaluate.py Models\\model.json data\\test.tsv
+py predict.py Models\\model.json Zdrw
